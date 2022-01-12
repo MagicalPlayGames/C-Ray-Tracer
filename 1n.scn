@@ -1,0 +1,9 @@
+view 512 .5
+ambient .2 .2 .2
+background 0.5 0.5 0.5
+light 1.0 1.0 1.0  0.0 30.0 -10.0
+move 0 0 -10
+scale 2.0 2.0 2.0
+Object fakeSphere.obj
+
+
