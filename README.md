@@ -1,7 +1,7 @@
 # C-Ray-Tracer
 This is a c++ Ray Tracer I made myself, but works under specific conditions
 
-.ppm file:
+# .ppm file:
   Each input .ppm file must be in P3 format in the following format:
   xSize ySize
   x,y: color  Hexcode  Color/srgb(187,135,107)
@@ -12,7 +12,7 @@ This is a c++ Ray Tracer I made myself, but works under specific conditions
   
   The output .ppm call out.pom file is in P3 format in the following format:
   P3
-  # Raytracer out.ppm
+  /# Raytracer out.ppm
   512 512 255  (xSize, ySize, color type(255))
   102 102 102  (pixel color x,y,z)
   102 102 102  (pixel color x,y,z)
@@ -20,12 +20,12 @@ This is a c++ Ray Tracer I made myself, but works under specific conditions
   
   It is recommended to open out.ppm in giphy
 
-.scn file:
+# .scn file:
   Each render must have a .scn file that transforms objects, uses .obj files, and .ppm files as texutres and normal maps
   
   The commands are as follow:
   view screenSize screenWidth - Sets the view of the render
-  # - a comment line
+  /# - a comment line
   Object name.obj - loads name.obj as a object
   scale x y z - scales the next objects by x y z
   move x y z - moves the next objects by x y z
@@ -38,6 +38,16 @@ This is a c++ Ray Tracer I made myself, but works under specific conditions
   material dr dg db sr sg sb shininess - sets the material variables to diffuse (dr,dg,db), specular (sr,sg,sb), and shininess
   
   
-  .obj file:
+# .obj file:
     Typical .obj  files used are files exported from blender
+    also contains .mtl files
 
+# .mtl file:
+    Contains  material attributes such as kd, ks, textures, and normals
+    
+# other included files
+  There are extra files included for materials, objects, and render outcomes
+  .mtl files - material files
+  .obj files - object files
+  .ppm files - render outcomes, textures, and normal maps
+  
