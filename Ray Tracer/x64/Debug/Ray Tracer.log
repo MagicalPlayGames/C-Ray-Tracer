@@ -1,0 +1,40 @@
+﻿  Face.cpp
+  Light.cpp
+  main.cpp
+C:\Users\alcal\Desktop\RayTracer\C-Ray-Tracer\Ray Tracer\main.cpp(866,12): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\alcal\Desktop\RayTracer\C-Ray-Tracer\Ray Tracer\main.cpp(867,13): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\alcal\Desktop\RayTracer\C-Ray-Tracer\Ray Tracer\main.cpp(880,12): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\alcal\Desktop\RayTracer\C-Ray-Tracer\Ray Tracer\main.cpp(881,13): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\alcal\Desktop\RayTracer\C-Ray-Tracer\Ray Tracer\main.cpp(978,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\alcal\Desktop\RayTracer\C-Ray-Tracer\Ray Tracer\main.cpp(984,36): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Material.cpp
+  Object.cpp
+  ObjSeg.cpp
+  Ray.cpp
+C:\Users\alcal\Desktop\RayTracer\C-Ray-Tracer\Ray Tracer\Ray.cpp(41,22): warning C4244: '=': conversion from 'const _Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\alcal\Desktop\RayTracer\C-Ray-Tracer\Ray Tracer\Ray.cpp(45,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\alcal\Desktop\RayTracer\C-Ray-Tracer\Ray Tracer\Ray.cpp(49,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Texture.cpp
+  Vertex.cpp
+  Generating Code...
+  Ray Tracer.vcxproj -> C:\Users\alcal\Desktop\RayTracer\C-Ray-Tracer\x64\Debug\Ray Tracer.exe
